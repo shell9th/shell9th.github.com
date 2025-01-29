@@ -1,0 +1,449 @@
+body {
+    margin: 0;
+}
+
+.blue-section1, .white-section1, .white-section2, .blue-section2{
+    min-height: 1000px; 
+    position:relative;
+
+ 
+}
+
+.blue-section2{
+    min-height: 500px; 
+    position:relative;
+
+ 
+}
+.blue-section1, .blue-section2 {
+
+    background-color: #0077be; 
+    color: white; 
+}
+
+.white-section1, .white-section2 {
+    background-color: beige;
+    color: black;
+}
+
+.button-features {
+    background-color: transparent;
+    color: black;
+    font-family: "Anton", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px 20px;
+    height: 100px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+.button-features:hover {
+    background-color: cyan;
+}
+
+
+.white-section1 .button-home {
+    border: 10px solid black; 
+    padding: 20px 20px;
+    position: absolute; 
+    top: 10%; 
+    left: 15%; 
+    transform: translate(-50%, -50%); 
+}
+
+.white-section1 .button-skills {
+    position: absolute; 
+    top: 10%; 
+    left: 25%; 
+    transform: translate(-50%, -50%); 
+}
+.white-section1 .button-project {
+    position: absolute; 
+    top: 10%; 
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+.white-section1 .button-contact {
+    position: absolute; 
+    width: 300px;
+    top: 10%;
+    right: 5%;
+    transform: translate(-50%, -50%); 
+}
+
+
+
+.white-section1 h1 {
+    z-index: 0;
+    position: absolute;
+    bottom: -10%; 
+    left: 5%; 
+    align-self: center;
+    transform: translateY(-35%); 
+    font-family: "Anton", serif;
+    font-size: 70px;
+}
+.white-section1 .profile-image
+{
+    position: absolute;
+    top: 20%; 
+    left: 40%;
+    width: auto; 
+    height: 500px;
+    border-radius: 50%;
+    border: 10px solid black; 
+    transition: border-color 0.3s ease-in-out;
+
+}
+
+.profile-image:hover {
+    border-color: cyan;
+}
+
+
+.blue-section1 h1 {
+    z-index: 0;
+    letter-spacing: 5px;
+    position: absolute;
+    top:  5%; 
+    left: 5%; 
+    align-self: center;
+    transform: translateY(-35%); 
+    font-family: "Anton", serif;
+    font-size: 50px;
+}
+.blue-section1 p{
+    font-family: "Anton", serif;
+    font-size: 35px;
+}
+
+.blue-section1 .p2
+{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+.blue-section1 .p1 
+{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.blue-section1 .img1
+{
+    position: absolute;
+    z-index: 1;
+    top: 23%;
+    left: 10%;
+    height: 200px;
+    width: auto;
+}
+
+.blue-section1 .img2
+{
+    position: absolute;
+    top: 23%;
+    left: 25%;
+    height: 200px;
+    width: auto;
+}
+
+.blue-section1 .img3
+{
+    position: absolute;
+    top: 23%;
+    left: 40%;
+    height: 200px;
+    width: auto;
+}
+
+
+.blue-section1 .img4
+{
+    position: absolute;
+    top: 23%;
+    left: 55%;
+    height: 200px;
+    width: auto;
+}
+
+
+.blue-section1 .img5
+{
+    position: absolute;
+    top: 23%;
+    left: 70%;
+    height: 200px;
+    width: auto;
+}
+
+.blue-section1 .img6
+{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    height: 200px;
+    width: auto;
+}
+
+.blue-section1 .img7
+{
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    height: 200px;
+    width: auto;
+}
+
+.blue-section1 .img8
+{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    height: 200px;
+    width: auto;
+}
+
+.blue-section1 .img9
+{
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    height: 200px;
+    width: auto;
+}
+
+.blue-section1 .img10
+{
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    height: 200px;
+    width: auto;
+}
+
+.blue-section1 .img11
+{
+    position: absolute;
+    top: 55%;
+    left: 85%;
+    height: 200px;
+    width: auto;
+}
+
+
+.white-section2 p{
+    font-family: "Anton", serif;
+    font-size: 35px;
+}
+
+.white-section2 h1 {
+    z-index: 0;
+    letter-spacing: 2px;
+    position: absolute;
+    top:  5%; 
+    left: 5%; 
+    align-self: center;
+    transform: translateY(-35%); 
+    font-family: "Anton", serif;
+    font-size: 50px;
+}
+
+.white-section2 .p1 
+{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+.white-section2 .p2 
+{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.white-section2 ul{
+    position: absolute;
+    list-style-type: disc; 
+    margin-top: 11%;
+    margin-left: 5%;
+
+}
+
+.white-section2 li {
+    font-size: 35px; 
+    font-family: "Anton", sans-serif;
+    padding: 20px;
+
+}
+
+
+.blue-section2 h1 {
+    z-index: 0;
+    position: absolute;
+    top:  5%; 
+    left: 5%; 
+    align-self: center;
+    transform: translateY(-35%); 
+    font-family: "Anton", serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.blue-section2 p{
+    font-family: "Anton", serif;
+    font-size: 35px;
+}
+
+.blue-section2 .p1 
+{
+    position: absolute;
+    top: 12%;
+    left: 5%;
+}
+
+.blue-section2 .img1
+{
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    left: 5%;
+    height: 45px;
+    width: auto;
+}
+
+.blue-section2 .p2
+{
+    position: absolute;
+    top: 27.5%;
+    left: 10%;
+}
+
+.blue-section2 .img1
+{
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    left: 5%;
+    height: 45px;
+    width: auto;
+}
+
+.blue-section2 .img2
+{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 4.9%;
+    height: 70px;
+    width: auto;
+}
+
+.blue-section2 .p3
+{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
+.blue-section2 .img3
+{
+    position: absolute;
+    z-index: 1;
+    top: 68%;
+    left: 4.9%;
+    height: 75px;
+    width: auto;
+}
+
+.blue-section2 .p4
+{
+    position: absolute;
+    top: 62.5%;
+    left: 10%;
+}
+
+
+
+.sticky-navbar {
+    background-color: rgba(3, 4, 94, 0.7); 
+    position: fixed;
+    top: -100px; 
+    width: 100%;
+    font-family: "Anton", sans-serif;
+
+    color: black;
+    padding: 10px 0;
+    transition: top 0.3s ease-in-out;
+    z-index: 1000;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100px;
+}
+
+.sticky-navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 15px;
+    margin-left: 180px;
+}
+
+.sticky-navbar ul li {
+    margin: 0 15px;
+}
+
+.sticky-navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+    font-size: 30px;
+}
+
+.sticky-navbar ul li a.home-link {
+    border: 10px solid black; 
+    padding: 10px 50px; 
+    transition: all 0.3s ease-in-out; 
+}
+
+.sticky-navbar .home-button {
+    border: 10px solid black; 
+    padding: 50px 20px;
+    position: absolute;
+    transform: translate(-50%, -50%); 
+
+}
+.sticky-navbar ul li a:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.sticky-navbar ul li a.contacts {
+    position: absolute;
+    top: 15%;
+    right: 10%; 
+}
+
+
+main {
+    padding: 0px;
+    height: auto;
+}
+
+html {
+    scroll-behavior: auto; 
+}
+
+
+.highlight {
+    font-weight: bold; 
+    color: rgb(0, 120, 136); 
+}
